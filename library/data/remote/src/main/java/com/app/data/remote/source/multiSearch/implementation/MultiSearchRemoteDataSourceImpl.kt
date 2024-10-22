@@ -18,6 +18,7 @@ internal class MultiSearchRemoteDataSourceImpl(private val api: MultiSearchApi) 
         MultiSearchRequest(
             query = query,
             language = language,
+            includeAdult = includeAdult,
             pageIndex = pageIndex
         )
     ).mapCatching { response ->

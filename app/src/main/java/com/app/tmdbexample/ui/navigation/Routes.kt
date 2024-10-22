@@ -11,6 +11,7 @@ data class DetailRoute(
     val name: String,
     val imagePath: String,
     val description: String,
+    val adult: Boolean,
     val mediaType: String,
 )
 

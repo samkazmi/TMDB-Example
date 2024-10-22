@@ -177,6 +177,7 @@ fun SearchScreenPreview() {
                             "Cars",
                             "/ksi3j.jpg",
                             "Description is not available",
+                            false,
                             MultiSearchBO.MediaTypeBO.MOVIE
                         ),
                         MultiSearchBO(
@@ -184,6 +185,7 @@ fun SearchScreenPreview() {
                             "Cars",
                             "/ksi3j.jpg",
                             "Description is not available",
+                            false,
                             MultiSearchBO.MediaTypeBO.MOVIE
                         ),
                         MultiSearchBO(
@@ -191,6 +193,7 @@ fun SearchScreenPreview() {
                             "Cars",
                             "/ksi3j.jpg",
                             "Description is not available",
+                            false,
                             MultiSearchBO.MediaTypeBO.MOVIE
                         ),
                     )
@@ -208,6 +211,7 @@ fun SearchScreenPreview() {
                             "Cars",
                             "/ksi3j.jpg",
                             "Description is not available",
+                            false,
                             MultiSearchBO.MediaTypeBO.TV
                         ),
                         MultiSearchBO(
@@ -215,6 +219,7 @@ fun SearchScreenPreview() {
                             "Cars",
                             "/ksi3j.jpg",
                             "Description is not available",
+                            false,
                             MultiSearchBO.MediaTypeBO.TV
                         ),
                         MultiSearchBO(
@@ -222,6 +227,7 @@ fun SearchScreenPreview() {
                             "Cars",
                             "/ksi3j.jpg",
                             "Description is not available",
+                            false,
                             MultiSearchBO.MediaTypeBO.TV
                         ),
                     )

@@ -38,6 +38,10 @@ internal class MultiSearchRepositoryImpl(
                     val newItems =
                         paginatedResponse.items.filter {
                             it.mediaType != MultiSearchBO.MediaTypeBO.PERSON
+                        }.map { item ->
+                            if (item.adult)
+                                item.copy(mediaType = MultiSearchBO.MediaTypeBO.XXX)
+                            else item
                         }.groupBy { item -> item.mediaType }
                     val currentItems = when (paginatedRequestType) {
                         PaginatedRequestType.FORCE_REFRESH -> emptyMap()

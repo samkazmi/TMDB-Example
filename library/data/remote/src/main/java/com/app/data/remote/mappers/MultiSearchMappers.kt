@@ -9,5 +9,6 @@ internal fun MultiSearch.toMultiSearchBO() = MultiSearchBO(
     name = title ?: name.orEmpty(),
     imagePath = backdropPath.orEmpty(),
     description = overview.orEmpty(),
+    adult = adult ?: false,
     mediaType = MultiSearchBO.MediaTypeBO.stringToEnum(mediaType)
 )

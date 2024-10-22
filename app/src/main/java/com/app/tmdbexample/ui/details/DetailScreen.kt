@@ -144,6 +144,7 @@ private fun MovieDetailsScreenPreview() {
                 name = "Avatar",
                 imagePath = "https://i.stack.imgur.com/lDFzt.jpg",
                 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+                adult = false,
                 mediaType = MultiSearchBO.MediaTypeBO.MOVIE
             ),
         )

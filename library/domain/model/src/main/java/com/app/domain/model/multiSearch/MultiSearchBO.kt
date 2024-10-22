@@ -5,6 +5,7 @@ data class MultiSearchBO(
     val name: String,
     val imagePath: String,
     val description: String,
+    val adult: Boolean,
     val mediaType: MediaTypeBO,
 ) {
     enum class MediaTypeBO(val value: String) {
@@ -24,6 +25,6 @@ data class MultiSearchBO(
     }
 
     companion object {
-        val EMPTY = MultiSearchBO(-1, "", "", "", MediaTypeBO.OTHER)
+        val EMPTY = MultiSearchBO(-1, "", "", "", false, MediaTypeBO.OTHER)
     }
 }
