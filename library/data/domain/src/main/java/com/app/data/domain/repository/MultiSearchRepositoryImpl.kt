@@ -39,6 +39,7 @@ internal class MultiSearchRepositoryImpl(
                         paginatedResponse.items.filter {
                             it.mediaType != MultiSearchBO.MediaTypeBO.PERSON
                         }.map { item ->
+                            // mediaType == "xxx" doesn't exist in data but adult boolean is there
                             if (item.adult)
                                 item.copy(mediaType = MultiSearchBO.MediaTypeBO.XXX)
                             else item
