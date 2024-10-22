@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TMDB Example</string>
+    <string name="search_placeholder">Search</string>
+    <string name="search_tv_shows_movies_and_more">Search TV Shows, Movies and More</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="unable_to_find_any_results">Unable to find any results</string>
+    <string name="no_results_found">No Results Found</string>
+    <string name="try_searching_with_different_keyword">Try searching with different keyword</string>
+    <string name="empty_state_icon">Empty State Icon</string>
+    <string name="play_video">Play Video</string>
+    <string name="media_image">Media Image</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+</resources>

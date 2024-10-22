@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:tools="http://schemas.android.com/tools">
+    <uses-sdk tools:overrideLibrary="androidx.core, androidx.core.ktx, androidx.annotation.experimental, androidx.versionedparcelable, androidx.interpolator, androidx.lifecycle.runtime, androidx.arch.core"  />
+</manifest>

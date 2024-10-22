@@ -1,0 +1,26 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.data.locale" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <application>
+7-->/Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:4:5-13:19
+8        <service
+8-->/Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:5:9-12:19
+9            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+9-->/Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:6:13-82
+10            android:enabled="false"
+10-->/Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:7:13-36
+11            android:exported="false" >
+11-->/Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:8:13-37
+12            <meta-data
+12-->/Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:9:13-11:40
+13                android:name="autoStoreLocales"
+13-->/Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:10:17-48
+14                android:value="true" />
+14-->/Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:11:17-37
+15        </service>
+16    </application>
+17
+18</manifest>

@@ -1,0 +1,32 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:2:1-14:12
+	package
+		INJECTED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:4:5-13:19
+service#androidx.appcompat.app.AppLocalesMetadataHolderService
+ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:5:9-12:19
+	android:enabled
+		ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:7:13-36
+	android:exported
+		ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:8:13-37
+	android:name
+		ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:6:13-82
+meta-data#autoStoreLocales
+ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:9:13-11:40
+	android:value
+		ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:11:17-37
+	android:name
+		ADDED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml:10:17-48
+uses-sdk
+INJECTED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml
+INJECTED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/SamKazmi/AndroidStudioProjects/TMDBExample/library/data/locale/src/main/AndroidManifest.xml

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_handling_connection">Unable to connect to internet</string>
+    <string name="error_handing_timeout">Time out please try again</string>
+    <string name="error_handling_unknown">Unexpected error occurred please contact admin</string>
+</resources>

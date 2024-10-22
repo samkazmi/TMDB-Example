@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TMDBExample" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.TMDBExample.Fullscreen" parent="Theme.TMDBExample">
+        <item name="android:actionBarStyle">@style/Widget.Theme.TMDBExample.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>
